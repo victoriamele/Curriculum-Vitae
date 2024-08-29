@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcv=self.webpackChunkcv||[]).push([[834],{834:(e,s,c)=>{c.r(s),c.d(s,{default:()=>n});c(43);var r=c(117),t=c(579);const n=function(){const{t:e}=(0,r.Bd)();return(0,t.jsx)("footer",{children:(0,t.jsxs)("p",{children:["\xa9 2024 ",e("yourName"),". ",e("allRightsReserved")]})})}}}]);
+//# sourceMappingURL=834.c9ea2d8b.chunk.js.map
