@@ -1,0 +1,23 @@
+{
+    "home": "Home",
+    "aboutMe": "About Me",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact",
+    "yourName": "Your Name",
+    "allRightsReserved": "All rights reserved",
+    "welcome": "Welcome to My Portfolio",
+    "homeIntro": "Hello! I'm [Your Name], a [Your Profession]. Explore my work and get to know me better.",
+    "aboutDescription": "I am [Your Name], a passionate [Your Profession] with experience in [Your Skills/Field]. Here is a brief overview of my background and expertise...",
+    "project1Title": "Project 1",
+    "project1Description": "Description of project 1.",
+    "viewProject": "View Project",
+    "project2Title": "Project 2",
+    "project2Description": "Description of project 2.",
+    "resumeDescription": "Here is a brief overview of my professional experience and education.",
+    "downloadResume": "Download Resume",
+    "contactIntro": "Feel free to reach out to me through the following methods:",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }  
