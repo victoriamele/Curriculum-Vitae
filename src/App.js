@@ -13,6 +13,9 @@ import Footer from './components/Footer';
 
 function App() {
   const [languageSelected, setLanguageSelected] = useState(false);
+  
+  // Use process.env.PUBLIC_URL to set the base path dynamically
+  const basePath = process.env.PUBLIC_URL || '';
 
   useEffect(() => {
     const selected = localStorage.getItem('languageSelected');
@@ -27,7 +30,7 @@ function App() {
   };
 
   return (
-    <Router basename="/Curriculum-Vitae">
+    <Router basename={basePath}>
       <div className="app-container">
         <Routes>
           {!languageSelected && (
