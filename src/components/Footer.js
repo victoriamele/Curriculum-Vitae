@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import logo2 from '../img/logoSimple.png';
+import logo2 from '../img/logoAlphaSimple.png';
 
 function Footer() {
   const { t } = useTranslation();

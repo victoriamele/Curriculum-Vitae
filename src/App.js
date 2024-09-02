@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/App.css';
 import './styles/Landing.css';
+import './styles/Resume.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
-import Contact from './pages/Contact';
 import Landing from './pages/Landing';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -43,7 +43,6 @@ function App() {
               <Route path="/about" element={<><Header /><main><About /></main></>} />
               <Route path="/projects" element={<><Header /><main><Projects /></main></>} />
               <Route path="/resume" element={<><Header /><main><Resume /></main></>} />
-              <Route path="/contact" element={<><Header /><main><Contact /></main></>} />
             </>
           )}
         </Routes>

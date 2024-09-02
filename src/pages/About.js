@@ -7,39 +7,51 @@ function About() {
   return (
     <main>
       <div className="page-content">
-        <div className="my-5">
-          <div className="p-5 text-center bg-body-tertiary">
-            <div className="container py-5">
-              <h1 className="text-body-emphasis">{t('aboutMe')}</h1>
-              <p className="col-lg-8 mx-auto lead">
-                {t('aboutDescription')}
-              </p>
-            </div>
+        <div className="container py-4">
+      <div className="p-5 mb-4 bg-body-tertiary rounded-3">
+        <div className="container-fluid py-5">
+          <h1 className="display-5 fw-bold">{t('aboutMe')}</h1>
+          <p className="col-md-8 fs-4">
+          {t('aboutDescription')}
+          </p>
+
+          <button className="btn btn-primary btn-lg" type="button">Example button</button>
+        </div>
+      </div>
+
+      <div className="row align-items-md-stretch">
+        <div className="col-md-6">
+          <div className="h-100 p-5 text-bg-dark rounded-3">
+            <h2>Change the background</h2>
+            <p>
+              Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.
+            </p>
+            <button className="btn btn-outline-light" type="button">Example button</button>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h2 className="display-5 fw-bold">{t('contact')}</h2>
+          <p className="col-md-8 fs-4">
+          {t('contactIntro')}
+          </p>
+          <ul>
+        <li>{t('email')}: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+        <li>{t('linkedin')}: <a href="http://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+        <li>{t('github')}: <a href="http://github.com/your-profile" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+      </ul>
+            <button className="btn btn-outline-secondary" type="button">Example button</button>
           </div>
         </div>
       </div>
-      
-      <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner">
-        <div className="carousel-item active" data-bs-interval="10000">
-          <img src="..." className="d-block w-100" alt="First slide" />
-        </div>
-        <div className="carousel-item" data-bs-interval="2000">
-          <img src="..." className="d-block w-100" alt="Second slide" />
-        </div>
-        <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="Third slide" />
-        </div>
       </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
+
+
+
+
+
+
+      </div>
     </main>
     
   );

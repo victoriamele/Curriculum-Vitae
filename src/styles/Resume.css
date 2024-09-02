@@ -1,0 +1,12 @@
+/* Resume page specific styles */
+.modal-body embed {
+    width: 100%;
+    min-height: 80vh; /* Adjusts to 80% of the viewport height */
+  }
+
+.carousel {
+    max-width: 70%; /* Adjust this percentage as needed */
+    margin: auto;  /* Centers the carousel */
+}
+  
+  

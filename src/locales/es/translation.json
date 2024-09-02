@@ -15,9 +15,11 @@
     "project2Title": "Proyecto 2",
     "project2Description": "Descripción del proyecto 2.",
     "resumeDescription": "Aquí tienes una breve descripción de mi experiencia profesional y educación.",
-    "downloadResume": "Descargar Currículum",
+    "downloadResume": "Descargar",
     "contactIntro": "No dudes en contactarme a través de los siguientes métodos:",
     "email": "Correo electrónico",
     "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "github": "GitHub",
+    "viewResume": "Ver",
+    "close": "Cerrar"
   }  

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import logo from '../img/logo.png';
+import logo from '../img/logoAlpha.png';
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -34,13 +34,10 @@ function Header() {
               <li className="nav-item">
                 <Link to="/resume">{t('resume')}</Link>
               </li>
-              <li className="nav-item">
-                <Link to="/contact">{t('contact')}</Link>
-              </li>
             </ul>
             <div className="d-flex">
-              <button className="btn btn-outline-primary me-2" type="button" onClick={() => changeLanguage('en')}>EN</button>
-              <button className="btn btn-outline-primary" type="button" onClick={() => changeLanguage('es')}>ES</button>
+              <button className="btn btn-outline-secondary me-2" type="button" onClick={() => changeLanguage('en')}>EN</button>
+              <button className="btn btn-outline-secondary" type="button" onClick={() => changeLanguage('es')}>ES</button>
             </div>
           </div> 
         </div>     
