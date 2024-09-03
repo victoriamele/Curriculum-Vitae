@@ -17,25 +17,19 @@ function Footer() {
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3">
-            {/*<a className="text-body-secondary" href="#">
-              <svg className="bi" width="24" height="24">
-                <use xlinkHref="#twitter"></use>
-              </svg>
-            </a>*/}
+            <a href="https://wa.me/+5491135605376" className="text-body-secondary" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-whatsapp"></i>
+            </a>
           </li>
           <li className="ms-3">
-            {/*<a className="text-body-secondary" href="#">
-              <svg className="bi" width="24" height="24">
-                <use xlinkHref="#instagram"></use>
-              </svg>
-            </a>*/}
+            <a href="mailto:ma.victoria.mele@gmail.com" className="text-body-secondary" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-envelope"></i>
+            </a>
           </li>
           <li className="ms-3">
-            {/*<a className="text-body-secondary" href="#">
-              <svg className="bi" width="24" height="24">
-                <use xlinkHref="#facebook"></use>
-              </svg>
-            </a>*/}
+            <a href="https://github.com/victoriamele" className="text-body-secondary" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-github"></i>
+            </a>
           </li>
         </ul>
       </footer>

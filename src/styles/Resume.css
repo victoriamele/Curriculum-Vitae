@@ -1,12 +1,38 @@
 /* Resume page specific styles */
 .modal-body embed {
     width: 100%;
-    min-height: 80vh; /* Adjusts to 80% of the viewport height */
+    max-height: 80vh; /* Adjusts to 80% of the viewport height */
   }
 
 .carousel {
     max-width: 70%; /* Adjust this percentage as needed */
     margin: auto;  /* Centers the carousel */
 }
+
+.btn-equal {
+    min-width: 150px; /* Set a fixed minimum width that works for both buttons */
+  }
+
+.btn-equal a {
+    color: inherit; /* Inherit the button's text color */
+    text-decoration: none; /* Remove the underline */
+}
+
+.btn-equal a:hover {
+    color: inherit; /* Ensure the color remains the same on hover */
+}
   
+@media (max-width: 768px) {
+    .modal-body embed {
+      height: 80vh; /* Adjust height for smaller screens */
+      width: 100%; /* Ensure it takes full width */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .modal-body embed {
+      height: 90vh; /* Adjust height for larger screens */
+      width: 100%; /* Ensure it takes full width */
+    }
+  }
   
