@@ -29,7 +29,7 @@ function Header() {
                 <Link to="/about">{t('aboutMe')}</Link>
               </li>
               <li className="nav-item">
-                <Link to="/projects">{t('projects')}</Link>
+                <Link to="/projects">{t('projectsTitle')}</Link>
               </li>
               <li className="nav-item">
                 <Link to="/resume">{t('resume')}</Link>

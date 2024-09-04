@@ -21,7 +21,7 @@ function Resume() {
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
             >
-              {t('viewResume')}
+              {t('view')}
             </button>
 
             {/* Button for downloading the resume */}

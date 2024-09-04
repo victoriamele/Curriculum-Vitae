@@ -1,25 +1,85 @@
 {
     "home": "Inicio",
     "aboutMe": "Sobre Mí",
-    "projects": "Proyectos",
     "resume": "Currículum",
     "contact": "Contacto",
-    "yourName": "Tu Nombre",
     "allRightsReserved": "Todos los derechos reservados",
-    "welcome": "Bienvenido a Mi Portafolio",
-    "homeIntro": "¡Hola! Soy María Victoria Mele, un [Tu Profesión]. Explora mi trabajo y conoce más sobre mí.",
-    "aboutDescription": "Soy [Tu Nombre], un apasionado [Tu Profesión] con experiencia en [Tus Habilidades/Campo]. Aquí tienes una breve descripción de mi experiencia y conocimientos...",
-    "project1Title": "Proyecto 1",
-    "project1Description": "Descripción del proyecto 1.",
-    "viewProject": "Ver Proyecto",
-    "project2Title": "Proyecto 2",
-    "project2Description": "Descripción del proyecto 2.",
-    "resumeDescription": "Aquí tienes una breve descripción de mi experiencia profesional y educación.",
-    "downloadResume": "Descargar",
-    "contactIntro": "No dudes en contactarme a través de los siguientes métodos:",
     "email": "Correo electrónico",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "viewResume": "Ver",
-    "close": "Cerrar"
+    "downloadResume": "Descargar",
+    "close": "Cerrar",
+    "welcome": "Bienvenido a Mi Portafolio",
+    "homeIntro": "¡Hola! Soy María Victoria Mele, un [Tu Profesión]. Explora mi trabajo y conoce más sobre mí.",
+    "aboutDescription": "Soy [Tu Nombre], un apasionado [Tu Profesión] con experiencia en [Tus Habilidades/Campo]. Aquí tienes una breve descripción de mi experiencia y conocimientos...",
+    "resumeDescription": "Aquí tienes una breve descripción de mi experiencia profesional y educación.",
+    "contactIntro": "No dudes en contactarme a través de los siguientes métodos:",
+    
+    "projectsTitle": "Proyectos",
+    "projectsSubtitle": "Navega por una selección de proyectos que muestran mi trayectoria en el desarrollo web. Desde sitios atractivos construidos con Elementor hasta componentes personalizados de React, estos proyectos destacan la evolución de mis habilidades y mi capacidad para resolver problemas de manera creativa.",
+    "projectsDetails": {
+        "fender": {
+            "name": "Sitio Web de Fender",
+            "description": "Un sitio web totalmente responsive desarrollado para Fender, que ofrece una experiencia dinámica y amigable para el usuario. Construido con WordPress y Elementor, el sitio incluye una sección de blog completa, un carrito de compras seguro y un entorno de prueba para compras. El diseño garantiza una navegación fluida en todos los dispositivos, proporcionando una plataforma atractiva para explorar los productos y contenido de Fender."
+        },
+        "calculator": {
+            "name": "Calculadora JavaScript",
+            "description": "Una calculadora basada en React con una interfaz limpia e intuitiva. Soporta operaciones aritméticas básicas y maneja casos extremos como dígitos excesivos y entradas decimales de manera eficiente. La calculadora incluye botones para números, operadores y funciones como limpiar y evaluar, ofreciendo una experiencia de usuario fluida para realizar cálculos."
+        },
+        "quote": {
+            "name": "Generador de Citas Aleatorias",
+            "description": "Una aplicación basada en React diseñada para ofrecer a los usuarios citas inspiradoras aleatorias. La interfaz incluye un área destacada para la cita y su autor, junto con botones interactivos para obtener una nueva cita o compartirla en Twitter. La aplicación obtiene las citas de una API externa, asegurando una experiencia fresca y atractiva cada vez que el usuario interactúa con la app."
+        },
+        "clock": {
+            "name": "Reloj 25 + 5",
+            "description": "Un temporizador Pomodoro basado en React que ayuda a gestionar el tiempo de manera efectiva alternando entre sesiones de trabajo de 25 minutos y descansos de 5 minutos. El reloj cuenta con sesiones y tiempos de descanso ajustables, controles de inicio/parada y un botón de reinicio. También incluye alertas visuales y sonoras para señalar el final de cada sesión, ideal para mejorar la productividad y gestión del tiempo."
+        },
+        "markdown": {
+            "name": "Previsualizador de Markdown",
+            "description": "Esta aplicación en React permite a los usuarios escribir y previsualizar texto en Markdown en tiempo real. Cuenta con un editor donde se puede ingresar Markdown y un panel de vista previa que muestra el HTML renderizado. Esta herramienta es útil para visualizar rápidamente el formato Markdown e incluye soporte para encabezados, bloques de código, listas, enlaces e imágenes."
+        },
+        "pokemon": {
+            "name": "Aplicación de Búsqueda de Pokémon",
+            "description": "Una aplicación dinámica para buscar Pokémon diseñada para ofrecer información detallada sobre cualquier Pokémon por nombre o ID. La aplicación presenta una interfaz limpia e intuitiva, permitiendo a los usuarios buscar fácilmente Pokémon y ver sus detalles, incluyendo nombre, ID, peso, altura y varias estadísticas básicas como HP, ataque y defensa. Los usuarios también pueden ver el sprite y los tipos del Pokémon."
+        },
+        "register": {
+            "name": "Caja Registradora",
+            "description": "Una aplicación funcional de caja registradora diseñada para manejar transacciones y proporcionar cálculos precisos de cambio. La app presenta una interfaz interactiva donde los usuarios pueden ingresar la cantidad de efectivo recibido de un cliente y procesar una compra. Calcula el cambio debido en función de las denominaciones predefinidas y actualiza la pantalla del cajón de efectivo en consecuencia."
+        },
+        "telephone": {
+            "name": "Validador de Números de Teléfono",
+            "description": "Una aplicación validadora de números de teléfono que verifica si un número de teléfono de EE.UU. es válido. Los usuarios pueden ingresar un número de teléfono, y la aplicación comprobará su formato contra una expresión regular definida para determinar su validez. Los resultados se muestran en la pantalla, indicando si el número es válido o no."
+        },
+        "palindrome": {
+            "name": "Verificador de Palíndromos",
+            "description": "Una aplicación verificador de palíndromos que evalúa si una palabra o frase dada es un palíndromo. Los usuarios pueden ingresar texto, y la aplicación evaluará si el texto se lee igual hacia adelante y hacia atrás, ignorando espacios, puntuación y mayúsculas. El resultado se muestra en la pantalla, informando al usuario si la entrada es un palíndromo o no."
+        },
+        "roman": {
+            "name": "Convertidor de Números Romanos",
+            "description": "Una aplicación convertidora de números romanos que permite a los usuarios convertir números árabes (enteros) en números romanos. La aplicación es capaz de manejar números en el rango de 1 a 3999, asegurando que solo se procesen entradas válidas. Los usuarios pueden ingresar un número y, al hacer clic en el botón 'Convertir', el numeral romano correspondiente se muestra en la pantalla."
+        },
+        "product": {
+            "name": "Página de Aterrizaje del Producto",
+            "description": "Una página de aterrizaje responsive construida con HTML y CSS, que muestra la Colección de Stratocaster® del 70º Aniversario de Fender. La página presenta un encabezado fijo con navegación, que lleva a secciones como Descripción, Características con un video incrustado, y un Formulario de Inscripción. El diseño es elegante, profesional y totalmente responsive, ofreciendo una experiencia óptima en todos los dispositivos."
+        },
+        "drum": {
+            "name": "Máquina de Batería",
+            "description": "Una máquina de batería basada en React que presenta una interfaz interactiva para tocar y experimentar con sonidos de batería. La aplicación incluye un conjunto de pads de batería, cada uno mapeado a teclas específicas del teclado y sonidos. Los usuarios pueden hacer clic en los pads o presionar las teclas correspondientes para activar los sonidos, con el sonido actualmente reproducido mostrado en la pantalla."
+        },
+        "technical": {
+            "name": "Página de Documentación Técnica",
+            "description": "Una página de documentación técnica dedicada a HTML, con un diseño estructurado y una barra de navegación fija para un acceso fácil a temas clave como elementos HTML, atributos, estructura del documento, y más. El contenido está organizado en secciones con encabezados claros, proporcionando una visión concisa pero completa de los fundamentos de HTML."
+        },
+        "survey": {
+            "name": "Formulario de Encuesta",
+            "description": "Un formulario de encuesta para miembros de LinkedIn diseñado para recoger comentarios de los usuarios con una interfaz limpia e intuitiva. El formulario incluye campos para información personal, selección de rol y preferencias, así como opciones para recomendar LinkedIn y sugerir mejoras."
+        },
+        "tribute": {
+            "name": "Página de Tributo",
+            "description": "Una página de tributo dedicada a Lola Mora, con un diseño bien organizado que destaca sus notables contribuciones al arte y la cultura. Presenta una cronología detallada de su vida y logros en un formato limpio y legible. El diseño emplea un enfoque minimalista, creando un tributo visualmente atractivo y respetuoso."
+        }
+      },
+    
+      "view": "Ver",
+      "code": "Código"
   }  

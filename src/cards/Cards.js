@@ -1,89 +1,126 @@
 // src/cards/Cards.js
-
+import fender from './fender.png';
 import calculator from './calculator.png';
+import quote from './quote.png';
 import clock from './clock.png';
 import markdown from './markdown.png';
-import project4 from './calculator.png';
-import project5 from './calculator.png';
-import project6 from './calculator.png';
-import project7 from './calculator.png';
-import project8 from './calculator.png';
-import project9 from './calculator.png';
-
+import pokemon from './pokemon.png';
+import register from './register.png';
+import telephone from './telephone.png';
+import palindrome from './palindrome.png';
+import roman from './roman.png';
+import product from './product.png';
+import drum from './drum.png';
+import technical from './technical.png';
+import survey from './survey.png';
+import tribute from './tribute.png';
 
 const cards = [
-  {
-    src: calculator,
-    alt: 'JavaScript Calculator Preview',
-    name: 'JavaScript Calculator',
-    description: 'A React-based calculator featuring a clean and intuitive interface. It supports basic arithmetic operations and handles edge cases like excessive digits and decimal inputs gracefully. The calculator includes buttons for numbers, operators, and functions like clear and evaluate, providing a seamless user experience for performing calculations.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
-  },
-  {
-    src: clock,
-    alt: '25 + 5 Clock Preview',
-    name: '25 + 5 Clock',
-    description: 'A React-powered Pomodoro timer that helps manage time effectively by alternating between 25-minute work sessions and 5-minute breaks. The clock features adjustable session and break lengths, start/stop controls, and a reset button. It also includes visual and audio alerts to signal the end of each session, making it ideal for enhancing productivity and time management.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/qBzEaoo',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/qBzEaoo',
-  },
-  {
-    src: markdown,
-    alt: 'Markdown Previewer Preview',
-    name: 'Markdown Previewer',
-    description: 'This React application allows users to write and preview Markdown text in real-time. It features an editor where users can input Markdown, and a preview pane that displays the rendered HTML. This tool is useful for quickly visualizing Markdown formatting and includes support for headers, code blocks, lists, links, and images.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/abgzmNW',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/abgzmNW',
-  },
-  {
-    src: project4,
-    alt: 'Project 1',
-    name: 'Project 1',
-    description: 'Description of Project 1.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
-  },
-  {
-    src: project5,
-    alt: 'Project 2',
-    name: 'Project 2',
-    description: 'Description of Project 2.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
-  },
-  {
-    src: project6,
-    alt: 'Project 3',
-    name: 'Project 3',
-    description: 'Description of Project 3.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
-  },
-  {
-    src: project7,
-    alt: 'Project 1',
-    name: 'Project 1',
-    description: 'Description of Project 1.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
-  },
-  {
-    src: project8,
-    alt: 'Project 2',
-    name: 'Project 2',
-    description: 'Description of Project 2.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
-  },
-  {
-    src: project9,
-    alt: 'Project 3',
-    name: 'Project 3',
-    description: 'Description of Project 3.',
-    viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
-    codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
-  },
+    {
+        key: 'fender',
+        src: fender,
+        alt: 'Fender Website Preview',
+        viewLink: 'https://dev-fenderunofficial.pantheonsite.io/',
+        codeLink: null,
+    },
+    {
+        key: 'calculator',
+        src: calculator,
+        alt: 'JavaScript Calculator Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/yLdyazJ',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/yLdyazJ',
+    },
+    {
+        key: 'quote',
+        src: quote,
+        alt: 'Random Quote Machine Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/OJePRVr',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/OJePRVr',
+    },
+    {
+        key: 'clock',
+        src: clock,
+        alt: '25 + 5 Clock Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/qBzEaoo',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/qBzEaoo',
+    },
+    {
+        key: 'markdown',
+        src: markdown,
+        alt: 'Markdown Previewer Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/abgzmNW',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/abgzmNW',
+    },
+    {
+        key: 'pokemon',
+        src: pokemon,
+        alt: 'Pokémon Search App Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/mdZQVVV',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/mdZQVVV',
+    },
+    {
+        key: 'register',
+        src: register,
+        alt: 'Cash Register Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/PorxZzb',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/PorxZzb',
+    },
+    {
+        key: 'telephone',
+        src: telephone,
+        alt: 'Telephone Number Validator Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/poXQgEL',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/poXQgEL',
+    },
+    {
+        key: 'palindrome',
+        src: palindrome,
+        alt: 'Palindrome Checker Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/BagGjpR',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/BagGjpR',
+    },
+    {
+        key: 'roman',
+        src: roman,
+        alt: 'Roman Numeral Converter Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/WNqYZgB',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/WNqYZgB',
+    },
+    {
+        key: 'product',
+        src: product,
+        alt: 'Product Landing Page Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/MWMzOwe',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/MWMzOwe',
+    },
+    {
+        key: 'drum',
+        src: drum,
+        alt: 'Drum Machine Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/jOjEMwP',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/jOjEMwP',
+    },
+    {
+        key: 'technical',
+        src: technical,
+        alt: 'Technical Documentation Page Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/KKjryBW',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/KKjryBW',
+    },
+    {
+        key: 'survey',
+        src: survey,
+        alt: 'Survey Form Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/ExBObOR',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/ExBObOR',
+    },
+    {
+        key: 'tribute',
+        src: tribute,
+        alt: 'Tribute Page Preview',
+        viewLink: 'https://codepen.io/CaelumBellator/full/vYqQWbo',
+        codeLink: 'https://codepen.io/CaelumBellator/pen/vYqQWbo',
+    },
 ];
 
 export default cards;

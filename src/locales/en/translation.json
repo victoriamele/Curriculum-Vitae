@@ -1,25 +1,86 @@
-{
+{   
     "home": "Home",
     "aboutMe": "About Me",
-    "projects": "Projects",
     "resume": "Resume",
     "contact": "Contact",
-    "yourName": "Your Name",
     "allRightsReserved": "All rights reserved",
-    "welcome": "Welcome to My Portfolio",
-    "homeIntro": "Hello! I'm Maria Victoria Mele, a [Your Profession]. Explore my work and get to know me better.",
-    "aboutDescription": "I am [Your Name], a passionate [Your Profession] with experience in [Your Skills/Field]. Here is a brief overview of my background and expertise...",
-    "project1Title": "Project 1",
-    "project1Description": "Description of project 1.",
-    "viewProject": "View Project",
-    "project2Title": "Project 2",
-    "project2Description": "Description of project 2.",
-    "resumeDescription": "Here is a brief overview of my professional experience and education.",
-    "downloadResume": "Download",
-    "contactIntro": "Feel free to reach out to me through the following methods:",
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub",
-    "viewResume": "View",
-    "close": "Close"
-  }  
+    "downloadResume": "Download",
+    "close": "Close",
+    "welcome": "Welcome to My Portfolio",
+    "homeIntro": "Hello! I'm Maria Victoria Mele, a [Your Profession]. Explore my work and get to know me better.",
+    "aboutDescription": "I am [Your Name], a passionate [Your Profession] with experience in [Your Skills/Field]. Here is a brief overview of my background and expertise...",
+    "resumeDescription": "Here is a brief overview of my professional experience and education.",
+    "contactIntro": "Feel free to reach out to me through the following methods:",
+    
+    "projectsTitle": "Projects",
+    "projectsSubtitle": "Browse through a selection of projects that showcase my journey in web development. From engaging sites built with Elementor to custom React components, these projects highlight my evolving skill set and creative problem-solving abilities.",
+    "projectsDetails": {
+        "fender": {
+            "name": "Fender Website",
+            "description": "A fully responsive website developed for Fender, featuring a dynamic and user-friendly experience. Built using WordPress and Elementor, the site includes a comprehensive blog section, a secure checkout cart, and a sandbox environment for test purchases. The design ensures seamless navigation across devices, providing an engaging platform for exploring Fender products and content."
+        },
+        "calculator": {
+            "name": "JavaScript Calculator",
+            "description": "A React-based calculator featuring a clean and intuitive interface. It supports basic arithmetic operations and handles edge cases like excessive digits and decimal inputs gracefully. The calculator includes buttons for numbers, operators, and functions like clear and evaluate, providing a seamless user experience for performing calculations."
+        },
+        "quote": {
+            "name": "Random Quote Machine",
+            "description": "A React-based application designed to provide users with random inspirational quotes. The interface includes a prominent display area for the quote and its author, along with interactive buttons to fetch a new quote or share it on Twitter. The application retrieves quotes from an external API, ensuring a fresh and engaging experience each time the user interacts with the app."
+        },
+        "clock": {
+            "name": "25 + 5 Clock",
+            "description": "A React-powered Pomodoro timer that helps manage time effectively by alternating between 25-minute work sessions and 5-minute breaks. The clock features adjustable session and break lengths, start/stop controls, and a reset button. It also includes visual and audio alerts to signal the end of each session, making it ideal for enhancing productivity and time management."
+        },
+        "markdown": {
+            "name": "Markdown Previewer",
+            "description": "This React application allows users to write and preview Markdown text in real-time. It features an editor where users can input Markdown, and a preview pane that displays the rendered HTML. This tool is useful for quickly visualizing Markdown formatting and includes support for headers, code blocks, lists, links, and images."
+        },
+        "pokemon": {
+            "name": "Pokémon Search App",
+            "description": "A dynamic Pokémon Search App designed to provide users with detailed information about any Pokémon by name or ID. The application features a clean and intuitive interface, allowing users to easily search for Pokémon and view their details, including name, ID, weight, height, and various base stats like HP, attack, and defense. Users can also see the Pokémon’s sprite and types."
+        },
+        "register": {
+            "name": "Cash Register",
+            "description": "A functional Cash Register application designed to handle transactions and provide accurate change calculations. The app features an interactive interface where users can enter the amount of cash received from a customer and process a purchase. It calculates the change due based on predefined denominations and updates the cash drawer display accordingly."
+        },
+        "telephone": {
+            "name": "Telephone Number Validator",
+            "description": "A Telephone Number Validator application that verifies whether a given US phone number is valid. Users can input a phone number, and the application will check its format against a defined regular expression to determine its validity. The results are displayed on the screen, indicating whether the number is valid or not."
+        },
+        "palindrome": {
+            "name": "Palindrome Checker",
+            "description": "A Palindrome Checker application that verifies whether a given word or phrase is a palindrome. Users can input text, and the application will evaluate whether the text reads the same forward and backward, disregarding spaces, punctuation, and capitalization. The result is displayed on the screen, informing the user if the input is a palindrome or not."
+        },
+        "roman": {
+            "name": "Roman Numeral Converter",
+            "description": "A Roman Numeral Converter application that allows users to convert Arabic numbers (integers) into Roman numerals. The application is capable of handling numbers within the range of 1 to 3999, ensuring that only valid inputs are processed. Users can input a number, and upon clicking the 'Convert' button, the corresponding Roman numeral is displayed on the screen."
+        },
+        "product": {
+            "name": "Product Landing Page",
+            "description": "A responsive Product Landing Page built with HTML and CSS, showcasing Fender’s 70th Anniversary Stratocaster® Collection. The page features a fixed header with navigation, leading to sections like Description, Features with an embedded video, and a Sign-Up Form. The design is sleek, professional, and fully responsive, providing an optimal user experience across all devices."
+        },
+        "drum": {
+            "name": "Drum Machine",
+            "description": "A React-based drum machine that features an interactive interface for playing and experimenting with drum sounds. The application includes a set of drum pads, each mapped to specific keyboard keys and sounds. Users can click on the pads or press the corresponding keys to trigger the sounds, with the currently played sound displayed on the screen."
+        },
+        "technical": {
+            "name": "Technical Documentation Page",
+            "description": "A technical documentation page dedicated to HTML, featuring a structured layout with a fixed navigation bar for easy access to key topics such as HTML elements, attributes, document structure, and more. The content is organized into sections with clear headers, providing a concise yet comprehensive overview of HTML fundamentals."
+        },
+        "survey": {
+            "name": "Survey Form",
+            "description": "A survey form for LinkedIn members designed to collect user feedback with a clean and intuitive interface. The form includes fields for personal information, role selection, and preferences, as well as options for recommending LinkedIn and suggesting improvements."
+        },
+        "tribute": {
+            "name": "Tribute Page",
+            "description": "A tribute page dedicated to Lola Mora, featuring a well-organized layout that highlights her remarkable contributions to art and culture. It presents a detailed timeline of her life and achievements in a clean, readable format. The design employs a minimalist approach, creating a visually appealing and respectful tribute."
+        }
+    },
+
+      "view": "View",
+      "code": "Code"
+}
+    
