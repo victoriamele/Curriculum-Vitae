@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Curriculum-Vitae/static/css/main.b0a96c4f.css",
-    "main.js": "/Curriculum-Vitae/static/js/main.97e713f6.js",
+    "main.css": "/Curriculum-Vitae/static/css/main.72e5c994.css",
+    "main.js": "/Curriculum-Vitae/static/js/main.ee52ab41.js",
     "static/js/453.5333ad58.chunk.js": "/Curriculum-Vitae/static/js/453.5333ad58.chunk.js",
     "static/media/fender.png": "/Curriculum-Vitae/static/media/fender.b5cb2807ce68b59fbcf8.png",
     "static/media/tribute.png": "/Curriculum-Vitae/static/media/tribute.e2cd7d9ca348521dcee4.png",
@@ -27,12 +27,12 @@
     "static/media/drum.png": "/Curriculum-Vitae/static/media/drum.8169fbe9e663f84ad7e6.png",
     "static/media/calculator.png": "/Curriculum-Vitae/static/media/calculator.1719e39afad4e1216bfb.png",
     "index.html": "/Curriculum-Vitae/index.html",
-    "main.b0a96c4f.css.map": "/Curriculum-Vitae/static/css/main.b0a96c4f.css.map",
-    "main.97e713f6.js.map": "/Curriculum-Vitae/static/js/main.97e713f6.js.map",
+    "main.72e5c994.css.map": "/Curriculum-Vitae/static/css/main.72e5c994.css.map",
+    "main.ee52ab41.js.map": "/Curriculum-Vitae/static/js/main.ee52ab41.js.map",
     "453.5333ad58.chunk.js.map": "/Curriculum-Vitae/static/js/453.5333ad58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0a96c4f.css",
-    "static/js/main.97e713f6.js"
+    "static/css/main.72e5c994.css",
+    "static/js/main.ee52ab41.js"
   ]
 }
