@@ -1,21 +1,4 @@
-/* Global styles */
- html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-#root {
-  flex: 1; 
-}  /* Ensure the root element takes up remaining space */
-
-/* Header styles */
+/* Header.js styles */
 header {
   text-align: center;
   width: 100%;
@@ -41,38 +24,14 @@ nav ul li {
   margin: 0 15px;
 }
 
-nav ul li a {
-  color: #010000;
-  text-decoration: none;
+nav ul li:hover {
+  text-decoration-line: underline;
+  text-decoration-color: gray;
+  text-decoration-style: solid;
 }
 
-/* Language buttons styles */
-/* .language-buttons {
-  margin: 0;
+
+/* Home.js styles */
+#welcome {
+  margin-bottom: 0;
 }
-
-.language-buttons button {
-  margin: 0 5px;
-  padding: 5px 10px;
-  font-size: 14px;
-  cursor: pointer;
-} */
-
-/* Footer styles */
-/*footer {
-  position: fixed;
-  bottom: 0;
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  width: 100%;
-} */
-
-/* Page content styles */
-/*.page-content {
-  margin: 0 auto;
-  padding: 20px;
-  min-width: 100vh;
-  max-width: 1200px; 
-} */

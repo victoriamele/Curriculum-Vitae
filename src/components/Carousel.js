@@ -12,7 +12,7 @@ function Carousel() {
     <div className="container px-4 py-5">
       <h2 className="fw-light border-bottom">{t('certifications')}</h2>
       <div className="carousel-container mx-auto my-4">
-        <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselAutoplay" className="carousel carousel-dark slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="3000">
               <img src={responsive} className="d-block w-100" alt="First slide" />
@@ -24,11 +24,11 @@ function Carousel() {
               <img src={javascript} className="d-block w-100" alt="Third slide" />
             </div>
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselAutoplay" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselAutoplay" data-bs-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
           </button>
