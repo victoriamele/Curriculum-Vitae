@@ -9,12 +9,14 @@
     "github": "GitHub",
     "downloadResume": "Descargar",
     "close": "Cerrar",
-    "welcome": "Bienvenido a Mi Portafolio",
-    "homeIntro": "¡Hola! Soy María Victoria Mele, un [Tu Profesión]. Explora mi trabajo y conoce más sobre mí.",
-    "aboutDescription": "Soy [Tu Nombre], un apasionado [Tu Profesión] con experiencia en [Tus Habilidades/Campo]. Aquí tienes una breve descripción de mi experiencia y conocimientos...",
-    "resumeDescription": "Aquí tienes una breve descripción de mi experiencia profesional y educación.",
-    "contactIntro": "No dudes en contactarme a través de los siguientes métodos:",
-    
+    "welcome": "Hola & Bienvenido",
+    "homeIntro": "Explora mi trabajo y conoce más sobre mí.",
+    "aboutDescription": "Soy una persona organizada y motivada, con una gran variedad de intereses. Me apasiona la programación y estoy en constante búsqueda de soluciones creativas a los problemas. Como estudiante de ingeniería electrónica, disfruto aprender nuevas herramientas y habilidades. Me considero extrovertida, proactiva, y tengo facilidad para liderar y trabajar en equipo, lo que me permite adaptarme a diferentes entornos y desafíos.",
+    "resumeDescription": "Explora un panorama general de mi trayectoria profesional, donde se destacan habilidades y logros esenciales. Utiliza las opciones 'Ver' y 'Descargar' para acceder a mi currículum completo y conocer más sobre mis cualificaciones.",
+    "contactIntro": "No dudes en contactarme a través de los siguientes medios para cualquier consulta, colaboración o simplemente para charlar sobre proyectos e ideas. Estoy siempre abierta a nuevas oportunidades y desafíos, ya sea en el desarrollo web, la programación o cualquier área relacionada con la tecnología. Si tienes alguna propuesta o estás interesado en trabajar juntos, no dudes en escribirme.",
+    "interests": "Intereses & Aficiones",
+    "interestsDescription": "Mis intereses abarcan una variedad de disciplinas que enriquecen mi enfoque creativo y técnico. Tengo entrenamiento auditivo musical, experiencia en piano clásico, guitarra y canto. Además, he asistido a talleres de teatro y dibujo artístico, lo que me ha permitido desarrollar una visión estética y expresión personal. También practico artes marciales, como taekwon-do, lo que me ha inculcado disciplina y perseverancia. Por otro lado, disfruto experimentando con tecnología, como Arduino Uno, combinando creatividad con habilidades técnicas.",
+
     "projectsTitle": "Proyectos",
     "projectsSubtitle": "Navega por una selección de proyectos que muestran mi trayectoria en el desarrollo web. Desde sitios atractivos construidos con Elementor hasta componentes personalizados de React, estos proyectos destacan la evolución de mis habilidades y mi capacidad para resolver problemas de manera creativa.",
     "projectsDetails": {
@@ -81,5 +83,30 @@
       },
     
       "view": "Ver",
-      "code": "Código"
+      "code": "Código",
+
+      "skills": "Aptitudes Profesionales",
+      "icons": {
+        "html5": "Un lenguaje de marcado popular para crear páginas web.",
+        "css3": "Un lenguaje de hojas de estilo usado para diseñar documentos HTML.",
+        "js": "Un lenguaje de programación versátil para crear páginas web interactivas.",
+        "rn": "Un marco para crear aplicaciones nativas usando React.",
+        "bstrap": "Un popular marco de CSS para diseño web responsivo.",
+        "vscode": "Un poderoso editor de código desarrollado por Microsoft.",
+        "git": "Un sistema de control de versiones para rastrear cambios en el código fuente.",
+        "github": "Una plataforma para alojar y gestionar repositorios Git.",
+        "wpress": "Un sistema de gestión de contenido para construir sitios web.",
+        "elementor": "Un creador de páginas de arrastrar y soltar para WordPress.",
+        "arduino": "Una plataforma de código abierto para proyectos electrónicos.",
+        "c": "Un lenguaje de programación de propósito general.",
+        "sass": "Un preprocesador de CSS para escribir hojas de estilo más mantenibles.",
+        "jquery": "Una biblioteca de JavaScript rápida, pequeña y rica en funciones.",
+        "nodejs": "Un entorno de ejecución para construir aplicaciones del lado del servidor en JavaScript.",
+        "npm": "Un gestor de paquetes para JavaScript y Node.js.",
+        "figma": "Una herramienta de diseño basada en la nube para diseño UI/UX.",
+        "illustrator": "Un editor de gráficos vectoriales de Adobe.",
+        "photoshop": "Un editor de gráficos rasterizados de Adobe.",
+        "canva": "Una herramienta de diseño gráfico fácil de usar."
+    },
+        "certifications": "Certificaciones"
   }  

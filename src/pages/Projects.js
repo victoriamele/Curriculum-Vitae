@@ -7,18 +7,18 @@ function Projects() {
   const { t } = useTranslation();
 
   return (
-    <main>
-      <section className="py-5 text-center container">
+    <div className="page-content">
+      <div className="py-5 text-center container">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto">
             <h1 className="fw-light">{t('projectsTitle')}</h1>
             <p className="lead text-body-secondary">{t('projectsSubtitle')}</p>
           </div>
         </div>
-      </section>
+      </div>
 
       <ProjectCards />
-    </main>
+    </div>
     
   );
 }

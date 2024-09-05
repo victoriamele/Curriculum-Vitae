@@ -7,9 +7,13 @@ function Home() {
   return (
     <div className="page-content">
       <div className="my-5">
-        <div className="p-5 text-center bg-body-tertiary">
+        <div className="p-5 text-center">
           <div className="container py-5">
-            <h1 className="text-body-emphasis">{t('welcome')}</h1>
+            <p className="lead">
+              {t('welcome')}
+            </p>
+            <h1 className="text-body-emphasis">MARÍA VICTORIA MELE</h1>
+            
             <p className="col-lg-8 mx-auto lead">
               {t('homeIntro')}
             </p>

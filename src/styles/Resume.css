@@ -10,7 +10,7 @@
 }
 
 .btn-equal {
-    min-width: 150px; /* Set a fixed minimum width that works for both buttons */
+    min-width: 7em; /* Set a fixed minimum width that works for both buttons */
   }
 
 .btn-equal a {

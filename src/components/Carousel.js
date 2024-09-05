@@ -1,13 +1,16 @@
 // src/components/Carousel.js
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import responsive from '../img/responsiveCertification.png';
 import frontend from '../img/frontendCertification.png';
 import javascript from '../img/javascriptCertification.png';
 
 function Carousel() {
+  const { t } = useTranslation();
+
   return (
     <div className="container px-4 py-5">
-      <h2 className="pb-2 border-bottom">Certifications</h2>
+      <h2 className="fw-light border-bottom">{t('certifications')}</h2>
       <div className="carousel-container mx-auto my-4">
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">

@@ -9,12 +9,14 @@
     "github": "GitHub",
     "downloadResume": "Download",
     "close": "Close",
-    "welcome": "Welcome to My Portfolio",
-    "homeIntro": "Hello! I'm Maria Victoria Mele, a [Your Profession]. Explore my work and get to know me better.",
-    "aboutDescription": "I am [Your Name], a passionate [Your Profession] with experience in [Your Skills/Field]. Here is a brief overview of my background and expertise...",
-    "resumeDescription": "Here is a brief overview of my professional experience and education.",
-    "contactIntro": "Feel free to reach out to me through the following methods:",
-    
+    "welcome": "Hello & Welcome",
+    "homeIntro": "Explore my work and get to know me better.",
+    "aboutDescription": "I am an organized and motivated individual with a wide range of interests. I am passionate about programming and constantly seek creative solutions to challenges. As an electronic engineering student, I enjoy learning new tools and skills. I consider myself outgoing, proactive, and skilled in both leadership and teamwork, allowing me to adapt to various environments and challenges.",
+    "resumeDescription": "Explore a comprehensive overview of my professional journey, showcasing essential skills and achievements. Utilize the 'View' and 'Download' options to access my full resume and dive deeper into my qualifications.",
+    "contactIntro": "Feel free to reach out through the following channels for any inquiries, collaborations, or just to chat about projects and ideas. I'm always open to new opportunities and challenges, whether in web development, programming, or any technology-related field. If you have a proposal or are interested in working together, don't hesitate to contact me.",
+    "interests": "Interests & Hobbies",
+    "interestsDescription": "My interests span a variety of disciplines that enrich my creative and technical approach. I have musical ear training, experience in classical piano, guitar, and singing. I've also attended theater and artistic drawing workshops, which have allowed me to develop an aesthetic vision and personal expression. Additionally, I practice martial arts, such as Taekwondo, which has instilled discipline and perseverance. On the technical side, I enjoy experimenting with technology, like Arduino Uno, combining creativity with technical skills.",
+
     "projectsTitle": "Projects",
     "projectsSubtitle": "Browse through a selection of projects that showcase my journey in web development. From engaging sites built with Elementor to custom React components, these projects highlight my evolving skill set and creative problem-solving abilities.",
     "projectsDetails": {
@@ -81,6 +83,31 @@
     },
 
       "view": "View",
-      "code": "Code"
+      "code": "Code",
+
+      "skills": "Professional Skills",
+      "icons": {
+        "html5": "A popular markup language for creating web pages.",
+        "css3": "A stylesheet language used to style HTML documents.",
+        "js": "A versatile programming language for building interactive web pages.",
+        "rn": "A framework for building native apps using React.",
+        "bstrap": "A popular CSS framework for responsive web design.",
+        "vscode": "A powerful code editor developed by Microsoft.",
+        "git": "A version control system for tracking changes in source code.",
+        "github": "A platform for hosting and managing Git repositories.",
+        "wpress": "A content management system for building websites.",
+        "elementor": "A drag-and-drop page builder for WordPress.",
+        "arduino": "An open-source platform for building electronic projects.",
+        "c": "A general-purpose programming language.",
+        "sass": "A CSS preprocessor for writing more maintainable stylesheets.",
+        "jquery": "A fast, small, and feature-rich JavaScript library.",
+        "nodejs": "A runtime for building server-side applications in JavaScript.",
+        "npm": "A package manager for JavaScript and Node.js.",
+        "figma": "A cloud-based design tool for UI/UX design.",
+        "illustrator": "A vector graphics editor by Adobe.",
+        "photoshop": "A raster graphics editor by Adobe.",
+        "canva": "A user-friendly graphic design tool."
+    },
+        "certifications": "Certifications"
 }
     

@@ -1,5 +1,5 @@
 /* Global styles */
-/* html, body {
+ html, body {
   height: 100%;
   margin: 0;
 }
@@ -13,16 +13,13 @@ body {
 
 #root {
   flex: 1; 
-} */ /* Ensure the root element takes up remaining space */
+}  /* Ensure the root element takes up remaining space */
 
 /* Header styles */
-/* header {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
+header {
   text-align: center;
   width: 100%;
-} */
+} 
 
 nav {
   display: flex;
