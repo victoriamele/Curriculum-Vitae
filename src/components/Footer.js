@@ -1,3 +1,4 @@
+// src/components/Footer.js
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import logo2 from '../img/logoAlphaSimple.png';

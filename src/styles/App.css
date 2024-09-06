@@ -30,8 +30,39 @@ nav ul li:hover {
   text-decoration-style: solid;
 }
 
-
 /* Home.js styles */
+#home {
+  min-height: 85vh;
+}
+
 #welcome {
   margin-bottom: 0;
+}
+
+/* Shine animation for Home.js h1 */
+.shine-title {
+  color: hsl(0, 0%, 28%);
+  cursor: pointer;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  
+  /* Ensure background spans a wider area for smooth animation */
+  background-size: 200% auto;
+
+  /* Standard background-clip property for compatibility */
+  background-clip: text;
+
+  /* Vendor-prefixed version for older browsers */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 5s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }

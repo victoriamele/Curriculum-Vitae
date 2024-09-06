@@ -79,12 +79,11 @@
             "description": "A tribute page dedicated to Lola Mora, featuring a well-organized layout that highlights her remarkable contributions to art and culture. It presents a detailed timeline of her life and achievements in a clean, readable format. The design employs a minimalist approach, creating a visually appealing and respectful tribute."
         }
     },
-
-      "view": "View",
-      "code": "Code",
-
-      "skills": "Professional Skills",
-      "icons": {
+    "certifications": "Certifications",
+    "view": "View",
+    "code": "Code",
+    "skills": "Professional Skills",
+    "icons": {
         "html5": "A popular markup language for creating web pages.",
         "css3": "A stylesheet language used to style HTML documents.",
         "js": "A versatile programming language for building interactive web pages.",
@@ -105,7 +104,6 @@
         "illustrator": "A vector graphics editor by Adobe.",
         "photoshop": "A raster graphics editor by Adobe.",
         "canva": "A user-friendly graphic design tool."
-    },
-        "certifications": "Certifications"
+    }
 }
     

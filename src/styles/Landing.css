@@ -1,25 +1,27 @@
 /* Landing page specific styles */
 .landing-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    padding: 0 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+  position: relative; /* Ensure relative positioning for the animations */
+  overflow: hidden; /* Hide any overflowing content */
+}
   
-  .language-buttons {
-    margin-top: 20px;
-  }
+.language-buttons {
+  margin-top: 20px;
+}
   
-  .language-buttons button {
-    margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
+.language-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 .landing-logo {
-    margin-bottom: 1.5em;
-  }
+  margin-bottom: 1.5em;
+}

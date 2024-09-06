@@ -16,10 +16,8 @@ function Projects() {
           </div>
         </div>
       </div>
-
       <ProjectCards />
     </div>
-    
   );
 }
 

@@ -78,13 +78,12 @@
             "name": "Página de Tributo",
             "description": "Una página de tributo dedicada a Lola Mora, con un diseño bien organizado que destaca sus notables contribuciones al arte y la cultura. Presenta una cronología detallada de su vida y logros en un formato limpio y legible. El diseño emplea un enfoque minimalista, creando un tributo visualmente atractivo y respetuoso."
         }
-      },
-    
-      "view": "Ver",
-      "code": "Código",
-
-      "skills": "Aptitudes Profesionales",
-      "icons": {
+    },
+    "certifications": "Certificaciones",
+    "view": "Ver",
+    "code": "Código",
+    "skills": "Aptitudes Profesionales",
+    "icons": {
         "html5": "Un lenguaje de marcado popular para crear páginas web.",
         "css3": "Un lenguaje de hojas de estilo usado para diseñar documentos HTML.",
         "js": "Un lenguaje de programación versátil para crear páginas web interactivas.",
@@ -105,6 +104,5 @@
         "illustrator": "Un editor de gráficos vectoriales de Adobe.",
         "photoshop": "Un editor de gráficos rasterizados de Adobe.",
         "canva": "Una herramienta de diseño gráfico fácil de usar."
-    },
-        "certifications": "Certificaciones"
+    }
   }  

@@ -1,3 +1,4 @@
+// src/pages/Resume.js
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import cv from '../assets/CV.pdf'
@@ -21,37 +22,58 @@ function Resume() {
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
-              >
+                >
                 {t('view')}
               </button>
               {/* Button for downloading the resume */}
               <button 
                 className="btn btn-outline-secondary rounded-pill btn-equal" 
                 type="button"
-              >
-                <a href={cv} download target="_blank" rel="noopener noreferrer">{t('downloadResume')}</a>
+                >
+                <a 
+                  href={cv} 
+                  download 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  >
+                  {t('downloadResume')}
+                </a>
               </button>
             </div>
           </div>
         </div>
       </div>
       {/* Modal */}
-      <div className="modal fade" id="staticBackdrop" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div 
+        className="modal fade" 
+        id="staticBackdrop" 
+        tabIndex="-1" 
+        aria-labelledby="staticBackdropLabel" 
+        aria-hidden="true"
+        >
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="staticBackdropLabel">{t('resume')}</h5>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button 
+                type="button" 
+                className="btn-close" 
+                data-bs-dismiss="modal" 
+                aria-label="Close"
+                >
+              </button>
             </div>
             <div className="modal-body p-0">
-              <embed src={cv} type="application/pdf" width="100%" />
+              <embed 
+                src={cv} 
+                type="application/pdf" 
+                width="100%" 
+              />
             </div>
           </div>
         </div>
       </div>
-      
       <IconGrid />
-
       <Carousel />
     </div>
   );
