@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Curriculum-Vitae/static/css/main.9bddf6ea.css",
-    "main.js": "/Curriculum-Vitae/static/js/main.0675b23c.js",
+    "main.js": "/Curriculum-Vitae/static/js/main.da9f01e5.js",
     "static/js/453.5333ad58.chunk.js": "/Curriculum-Vitae/static/js/453.5333ad58.chunk.js",
     "static/media/fender.png": "/Curriculum-Vitae/static/media/fender.b5cb2807ce68b59fbcf8.png",
     "static/media/tribute.png": "/Curriculum-Vitae/static/media/tribute.e2cd7d9ca348521dcee4.png",
     "static/media/product.png": "/Curriculum-Vitae/static/media/product.daa2fd6f8ea1c891a3a5.png",
     "static/media/palindrome.png": "/Curriculum-Vitae/static/media/palindrome.dc24c7e9b6d1a5c217c2.png",
     "static/media/telephone.png": "/Curriculum-Vitae/static/media/telephone.c7ecf67d38f9a30f341b.png",
+    "static/media/CV.pdf": "/Curriculum-Vitae/static/media/CV.73aaf2d4046bbc58a7fd.pdf",
     "static/media/javascriptCertification.png": "/Curriculum-Vitae/static/media/javascriptCertification.8d5963f674647d0716c8.png",
     "static/media/frontendCertification.png": "/Curriculum-Vitae/static/media/frontendCertification.7510a9a844ec2f592e03.png",
     "static/media/responsiveCertification.png": "/Curriculum-Vitae/static/media/responsiveCertification.035d240abd5e0c44a4d7.png",
     "static/media/technical.png": "/Curriculum-Vitae/static/media/technical.af0a679a9a03005aaef1.png",
     "static/media/bootstrap-icons.woff?": "/Curriculum-Vitae/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Curriculum-Vitae/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "static/media/CV.pdf": "/Curriculum-Vitae/static/media/CV.ccaf5c896fa40368cdf5.pdf",
     "static/media/pokemon.png": "/Curriculum-Vitae/static/media/pokemon.ee61636ad67b873f0648.png",
     "static/media/markdown.png": "/Curriculum-Vitae/static/media/markdown.bf6e2615318d73c52db7.png",
     "static/media/survey.png": "/Curriculum-Vitae/static/media/survey.b07a98966c7646d49f88.png",
@@ -28,11 +28,11 @@
     "static/media/calculator.png": "/Curriculum-Vitae/static/media/calculator.1719e39afad4e1216bfb.png",
     "index.html": "/Curriculum-Vitae/index.html",
     "main.9bddf6ea.css.map": "/Curriculum-Vitae/static/css/main.9bddf6ea.css.map",
-    "main.0675b23c.js.map": "/Curriculum-Vitae/static/js/main.0675b23c.js.map",
+    "main.da9f01e5.js.map": "/Curriculum-Vitae/static/js/main.da9f01e5.js.map",
     "453.5333ad58.chunk.js.map": "/Curriculum-Vitae/static/js/453.5333ad58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bddf6ea.css",
-    "static/js/main.0675b23c.js"
+    "static/js/main.da9f01e5.js"
   ]
 }
